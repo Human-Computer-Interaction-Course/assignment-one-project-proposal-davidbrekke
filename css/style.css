@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(158, 41, 51);
+  color: rgb(232, 232, 232);
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  padding: 3em;
+}
+.mission {
+  margin-bottom: 1em;
+}
+.mission h2 {
+  margin-bottom: 0.25em;
+  margin-left: 1em;
+}
